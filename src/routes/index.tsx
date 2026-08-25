@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Stethoscope } from "lucide-react";
+import { Play } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
