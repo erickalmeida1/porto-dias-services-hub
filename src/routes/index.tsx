@@ -64,7 +64,7 @@ function Index() {
                 className="group flex flex-col items-center rounded-2xl border border-border bg-card p-8 text-center shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-primary/30 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               >
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                  <Stethoscope size={28} strokeWidth={1.8} aria-hidden="true" />
+                  <Play size={28} strokeWidth={1.8} aria-hidden="true" />
                 </div>
                 <h2 className="text-lg font-semibold text-card-foreground">
                   {specialty.name}
